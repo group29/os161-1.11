@@ -1,0 +1,25 @@
+Global setup:
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email desiblast@gmail.com
+      
+Next steps:
+  mkdir os161-1.11
+  cd os161-1.11
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:group29/os161-1.11.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:group29/os161-1.11.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Click here
+      
+When you're done:
+  Continue
